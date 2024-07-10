@@ -1,0 +1,17 @@
+{
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "description": "My blog website using MERN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
